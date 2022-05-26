@@ -1,0 +1,25 @@
+.header {
+    background-color: #0067A3;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 20px;
+    align-items: center;
+    font-size: 28px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+    .header__link {
+        display: none;
+    }
+
+    .header {
+        background-color: #0079BF;
+        justify-content: end;
+    }
+}
